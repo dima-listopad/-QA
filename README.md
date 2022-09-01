@@ -523,7 +523,8 @@ JSON (JavaScript Object Notation) — текстовый формат обмен
 Информационный	100 Continue («продолжай»);
 - 101 Switching Protocols («переключение протоколов»);
 - 102 Processing («идёт обработка»);
-- 103 Early Hints («ранняя метаинформация»);
+- 103 Early Hints («ранняя метаинформация»).
+
 Успех	200 OK («хорошо»);
 - 201 Created («создано»);
 - 202 Accepted («принято»);
@@ -534,6 +535,7 @@ JSON (JavaScript Object Notation) — текстовый формат обмен
 - 207 Multi-Status («многостатусный»);
 - 208 Already Reported («уже сообщалось»);
 - 226 IM Used («использовано IM»).
+
 Перенаправление	300 Multiple Choices («множество выборов»);
 - 301 Moved Permanently («перемещено навсегда»);
 - 302 Moved Temporarily («перемещено временно»), 
@@ -543,6 +545,7 @@ JSON (JavaScript Object Notation) — текстовый формат обмен
 - 306 — зарезервировано (код использовался только в ранних спецификациях);
 - 307 Temporary Redirect («временное перенаправление»);
 - 308 Permanent Redirect («постоянное перенаправление»).
+
 Ошибка клиента	400 Bad Request («неправильный, некорректный запрос»);
 - 401 Unauthorized («не авторизован (не представился)»);
 - 402 Payment Required («необходима оплата»);
@@ -574,7 +577,8 @@ JSON (JavaScript Object Notation) — текстовый формат обмен
 - 431 Request Header Fields Too Large («поля заголовка запроса слишком большие»);
 - 449 Retry With («повторить с»);
 - 451 Unavailable For Legal Reasons («недоступно по юридическим причинам»).
-- 499 Client Closed Request (клиент закрыл соединение);
+- 499 Client Closed Request (клиент закрыл соединение)
+
 Ошибка сервера	500 Internal Server Error («внутренняя ошибка сервера»);
 - 501 Not Implemented («не реализовано»);
 - 502 Bad Gateway («плохой, ошибочный шлюз»);
